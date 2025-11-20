@@ -1,26 +1,18 @@
 # Stormatica
 
-An enhanced fork of [Litematica](https://github.com/maruohon/litematica) with powerful material list features for survival Minecraft.
+A fork of [Litematica](https://github.com/maruohon/litematica) with additional features for material lists and coordinating item gathering with player activities.
 
 ## What is Stormatica?
-
 Stormatica extends Litematica's material list functionality with two major features:
 
-### 🗂️ Custom Material Lists
-Load material lists from JSON or text files containing **any Minecraft items** - not just placeable blocks:
-- Tools, weapons, and armor
-- Food items and potions
-- Mob drops and brewing ingredients
-- Literally any item in the game!
+### Custom Material Lists
+Load material lists from JSON or text files containing **any Item Class** - not just placeable blocks:
 
-Perfect for creating shopping lists, raid preparation checklists, or resource gathering goals.
-
-### 🧠 Smart Cache-Based Sorting
+### Cache-Based Sorting
 Material lists automatically prioritize items you've recently accessed in containers:
 - Open a chest → Items from that chest jump to the top of your list
 - Open more containers → Most recently seen items stay at the top
-- Your HUD always shows the items that are currently accessible to you
-- No more running across your world looking for scattered materials!
+- Your HUD always shows the items that are most recently accessible to you
 
 ## Installation
 
@@ -32,7 +24,7 @@ Material lists automatically prioritize items you've recently accessed in contai
 ### Steps
 1. Download the latest release from [Releases](https://github.com/cubicmetre/stormatica-extension/releases)
 2. Place `stormatica-fabric-0.24.5-stormatica-1.0.0.jar` in your `.minecraft/mods/` folder
-3. Remove the original Litematica mod (Stormatica replaces it completely)
+3. Disable the original Litematica mod (Stormatica replaces it completely)
 4. Launch Minecraft
 
 **Note:** Stormatica is a **fork**, not an addon. Do not run it alongside the original Litematica.
@@ -44,13 +36,16 @@ Material lists automatically prioritize items you've recently accessed in contai
 #### JSON Format
 ```json
 {
-  "name": "Raid Preparation",
+  "name": "Tools and Utilities",
   "items": [
-    {"id": "minecraft:diamond_sword", "count": 1},
-    {"id": "minecraft:diamond_chestplate", "count": 1},
-    {"id": "minecraft:golden_apple", "count": 10},
-    {"id": "minecraft:ender_pearl", "count": 16},
-    {"id": "minecraft:shield", "count": 1}
+    {"id": "lead","count": 1},
+    {"id": "saddle","count": 1},
+    {"id": "spyglass","count": 1},
+    {"id": "shears","count": 1},
+    {"id": "diamond_axe","count": 1},
+    {"id": "diamond_shovel","count": 1},
+    {"id": "diamond_hoe","count": 1},
+    {"id": "diamond_pickaxe","count": 1}
   ]
 }
 ```
