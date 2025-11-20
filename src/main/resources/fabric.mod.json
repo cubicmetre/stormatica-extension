@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "stormatica",
+	"name": "Stormatica",
+	"version": "${mod_version}",
+
+	"description": "Litematica fork with custom material lists and smart cache-based sorting",
+	"authors": [
+		"masa (Original Litematica)",
+		"cubicmetre (Stormatica Extensions)"
+	],
+	"contact": {
+		"homepage": "https://github.com/cubicmetre/stormatica-extension",
+		"issues": "https://github.com/cubicmetre/stormatica-extension/issues",
+		"sources": "https://github.com/cubicmetre/stormatica-extension"
+	},
+
+	"license": "LGPLv3",
+	"icon": "assets/litematica/icon.png",
+
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"fi.dy.masa.litematica.Litematica"
+		],
+		"modmenu": [
+			"fi.dy.masa.litematica.compat.modmenu.ModMenuImpl"
+		]
+	},
+
+	"mixins": [
+		"mixins.litematica.json"
+	],
+    "accessWidener": "litematica.accesswidener",
+    "depends": {
+        "minecraft": ">=1.21.9 <=1.21.10",
+        "malilib": ">=0.26.4- <0.27.0-"
+    },
+    "breaks": {
+        "malilib": "<0.26.4-"
+    }
+}
