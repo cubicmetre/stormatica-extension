@@ -75,13 +75,15 @@ Save files in your schematics folder, then load via "Load Schematics" menu.
 ## Credits
 
 ### Original Litematica
-- **Author:** [masa](https://github.com/maruohon)
+- **Original Author:** [masa](https://github.com/maruohon)
+- **Current Maintainer:** [Sakura Ryoko](https://github.com/sakura-ryoko)
 - **License:** LGPLv3
-- **Repository:** https://github.com/maruohon/litematica
+- **Repository:** https://github.com/sakura-ryoko/litematica
 
 ### Stormatica Extensions
 - **Author:** cubicmetre
 - **Features Added:** Custom material lists, cache-based sorting
+- **Based on:** Litematica v0.24.5 (Sakura Ryoko's fork)
 - **License:** LGPLv3 (same as original)
 
 ## Compiling
