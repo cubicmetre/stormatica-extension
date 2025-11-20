@@ -74,7 +74,7 @@ Save files in your schematics folder, then load via "Load Schematics" menu.
 
 ## Credits
 
-### Original Litematica
+### Litematica
 - **Original Author:** [masa](https://github.com/maruohon)
 - **Current Maintainer:** [Sakura Ryoko](https://github.com/sakura-ryoko)
 - **License:** LGPLv3
@@ -103,6 +103,6 @@ This project is licensed under the GNU Lesser General Public License v3.0 (LGPLv
 ## Support
 
 - **Issues:** [GitHub Issues](https://github.com/cubicmetre/stormatica-extension/issues)
-- **Original Litematica:** [masa's repository](https://github.com/maruohon/litematica)
+- **Litematica:** [masa's repository](https://github.com/maruohon/litematica)
 
 This is an **unofficial fork** - not supported by the original Litematica team.
